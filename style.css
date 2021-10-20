@@ -1,0 +1,177 @@
+body {
+    background-color: #f5f5e9;cursor:url(https://i.postimg.cc/Px4ysW9f/tiny.png),auto;
+    background: #F8DEBE;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 9px;
+    color: #2e2e2e;
+    letter-spacing: 0.3px;
+    line-height: 180%;
+    text-transform: lowercase;
+    text-align: justify;
+}
+
+small, sub, sup {
+    font-size: 9px;
+}
+
+b, bold, strong {
+    color: #FFEA97;
+    font-weight: bold; 
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+i, italic {
+    color: #f8d8af;
+}
+
+big {
+    font-size: 10px;
+    font-weight: bold;
+    color: #f8d8af;cursor:url(https://i.postimg.cc/Px4ysW9f/tiny.png),auto;
+}
+a { 
+  transition: background-size .4s ease;
+  color: #000;
+  text-decoration: none;}
+::-webkit-scrollbar {
+  display:none;cursor:url(https://i.postimg.cc/Px4ysW9f/tiny.png),auto;
+}
+
+.instagram {
+width: 250px; height: 350px; background: #fefefe; border: 1px solid #e5e5e5; position: absolute; left: 500px;top: 90px; border-radius: 30px; box-shadow: 0px 0px 5px rgba(0,0,0,0.04); overflow: hidden; transition: 0.3s;
+}
+
+.instagram:hover {
+    transform: scale(1.1); transition: 0.3s; z-index: 9999999;
+}
+
+.ititle {
+width: 250px; height: 30px; position: absolute; border-bottom: 1px solid #e5e5e5; text-align: center; font-family: poppins; font-size: 8px; font-weight: 700; text-transform: uppercase; display: flex; align-items: center; justify-content: center; letter-spacing: 1px;
+}
+
+.iginfo {
+width: 250px; height: 30px; position: absolute; top: 31px;
+}
+
+.igpfp {
+width: 20px; height: 20px; background: #FFEA97; position: absolute; left: 12px; top: 5px; border-radius: 50%;
+}
+
+.igpfp img {
+    width: 20px; height: 20px; border-radius: 50%;
+}
+.iguser {
+width: 200px; height: 20px; position: absolute; top: 5px; left: 40px; display: flex; align-items: center; font-family: poppins; font-size: 8px; font-weight: 700; color: #FFEA97; text-transform: uppercase; letter-spacing: 1px;cursor:url(https://i.postimg.cc/262QXzLV/tinyhover.png),auto;
+}
+
+.igpost {
+width: 250px; height: 250px; background-color: #fbfbfb; position: absolute; top: 62px;
+
+}
+
+.igpost img {
+    width: 250px; height: 250px; background-image:url('https://media.discordapp.net/attachments/869333365478793216/895940912629297212/6fd6164de900f3523e4b6b5b4743b0c4.jpg?width=663&height=663');transition-duration:1s;background-position:center center;
+        background-repeat:no-repeat;
+        background-size:cover;
+}
+
+.igpost img:hover {background-image:url('https://media.discordapp.net/attachments/869333365478793216/895973229590634547/mabel.png');transition-duration: 1s;}
+
+.posticons {
+width: 220px; height: 20px; position: absolute; bottom: 10px; color: #FFEA97; font-size: 16px; left: 15px; display: flex; justify-content: space-between;cursor:url(https://i.postimg.cc/262QXzLV/tinyhover.png),auto; transition: 0.3s;
+}
+.posticons a {
+    transition: 0.3s; color: #FFEA97;cursor:url(https://i.postimg.cc/262QXzLV/tinyhover.png),auto;
+}
+.posticons:hover {
+    transition: 0.3s; color: #FFEA97;
+}
+
+
+.song {
+width: 200px; height: 60px; background: #f8fefe; border: 1px solid #e5e5e5; position: absolute; left: 680px; top: 230px; border-radius: 15px; box-shadow: 0px 0px 5px rgba(0,0,0,0.04); transition: 0.3s;
+}
+
+.song:hover {
+    transition: 0.3s; transform: scale(1.1);
+}
+
+.sart {
+width: 40px; height: 40px; border-radius: 10px; position: absolute; left: 10px; top: 10px; background: #f8d8af;
+}
+
+.sart img {
+    width: 40px; height: 40px; border-radius: 10px;
+}
+.snp {
+width: 130px; height: 30px; position: absolute; right: 10px; top: 15px;text-transform: uppercase;font-size: 8px;
+}
+
+.sname {
+font-family: poppins; font-size: 10px; color: #FFEA97; text-transform: uppercase; letter-spacing; 1px; font-weight: 700; margin-top: -3px;
+}
+
+.igprof {
+width: 200px; height: 160px; background: #fefefe; border: 1px solid #e5e5e5; position: absolute; bottom: 90px;left:380px; border-radius: 20px; box-shadow: 0px 0px 5px rgba(0,0,0,0.04); transition: 0.3s;
+}
+
+.igprof:hover {
+    transform: scale(1.1); transition: 0.3s; 
+}
+
+.igdot {
+width: 20px; height: 20px; background: rgba(248,216,175,0.5); border-radius: 50%; border: 1px solid #f8d8af; position: absolute; right: -4px; top: -4px;
+}
+
+.igicon {
+width: 40px; height: 40px; background: #f8d8af; position: absolute; border-radius: 50%; left: 15px; top: 15px;
+}
+
+.igicon img {
+    width: 40px; height: 40px; border-radius: 50%;
+}
+.profin {
+width: 120px; height: 30px; position: absolute; right: 15px; top: 28px;
+}
+
+.s1 {
+width: 40px; height: 30px; position: absolute; text-align: center; font-size: 7px; line-height: 130%;
+}
+
+.s2 {
+width: 40px; height: 30px; position: absolute; text-align: center; font-size: 7px; line-height: 130%; left: 40px;
+}
+
+.s3 {
+width: 40px; height: 30px; position: absolute; text-align: center; font-size: 7px; line-height: 130%; right: 0px;
+}
+
+.stat {
+font-size: 9px; font-weight: 700; color: #FFEA97; font-family: poppins;
+}
+
+.igdes {
+width: 160px; height: 50px; position: absolute; left: 20px; top: 67px; overflow: scroll; font-size: 8px; line-height: 150%;
+}
+
+.ignm {
+position: absolute;color: #FFEA97;
+}
+
+.prodes {
+height: 37px; position: absolute; overflow: scroll; bottom: 0px;
+}
+
+.follow {
+width: 80px; height: 15px; font-size: 8px; letter-spacing: 1px; text-align: center; position: absolute; font-family: poppins; text-transform: uppercase; bottom: 16px; left: 20px; background: rgba(248,216,175,0.5); border: 1px solid #f8d8af; border-radius: 5px; font-weight: 700; transition: 0.3s; cursor:url(https://i.postimg.cc/262QXzLV/tinyhover.png),auto;
+}
+
+.follow:hover {
+    transition: 0.3s; background: #f8d8af;
+}
+.mssg {
+width: 70px; height: 15px; font-size: 8px; letter-spacing: 1px; text-align: center; position: absolute; font-family: poppins; text-transform: uppercase; bottom: 16px; right: 20px; background: rgba(251,251,251,0.5); border: 1px solid #e5e5e5; border-radius: 5px; font-weight: 700; transition: 0.3s; cursor:url(https://i.postimg.cc/262QXzLV/tinyhover.png),auto;
+}
+.mssg:hover {
+    transition: 0.3s; background: #e5e5e5;
